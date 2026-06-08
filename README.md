@@ -285,10 +285,6 @@ La configuration se trouve dans `Olympia/appsettings.json` :
 
 ---
 
-## 📄 Licence
-
-Distribué sous licence **MIT**. Voir le fichier [`LICENSE`](LICENSE) pour plus d'informations.
-
 <div align="center">
 
 ⭐️ Si ce projet vous a plu, n'hésitez pas à laisser une étoile !
