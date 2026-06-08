@@ -55,31 +55,6 @@ Le principe métier central est la **tarification contextuelle** : un même arti
 
 ## 🏗 Architecture
 
-```
-┌─────────────────┐     ┌─────────────────┐
-│  Storefront     │     │  Espace VRP     │
-│  client (Angular)│     │  (commerciaux)  │
-└────────┬────────┘     └────────┬────────┘
-         │       HTTP / CORS     │
-         └───────────┬───────────┘
-                     ▼
-        ┌──────────────────────────┐
-        │   API ASP.NET Core 6     │
-        │ Controllers · DTO · CORS │
-        └────────────┬─────────────┘
-                     │  Repositories (Scoped)
-                     ▼
-        ┌──────────────────────────┐
-        │   EF Core 6 (DbContext)  │   ──►  SMS (WinSmsPro)
-        │   Database-First         │
-        └────────────┬─────────────┘
-                     ▼
-        ┌──────────────────────────┐
-        │      SQL Server          │
-        │  Base ERP « OLYMPIA »    │
-        └──────────────────────────┘
-```
-
 L'API suit une **architecture en couches** avec injection de dépendances :
 
 ```
