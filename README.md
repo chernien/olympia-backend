@@ -303,23 +303,6 @@ La configuration se trouve dans `Olympia/appsettings.json` :
 
 ---
 
-## 🔮 Améliorations futures
-
-- 🔑 Migrer l'authentification vers **JWT** + `[Authorize]` par rôle.
-- 🌐 Restreindre la politique **CORS** aux seuls domaines de production.
-- 🧪 Ajouter une **suite de tests** (xUnit) sur les repositories et la logique de tarification.
-- 📦 Externaliser la configuration via **variables d'environnement / Azure Key Vault**.
-- 📈 Mettre en place **logging structuré** (Serilog) et health checks.
-- 🚀 Ajouter un pipeline **CI/CD** (GitHub Actions : build + tests).
-
----
-
-## 👤 Auteur
-
-> _À compléter avec vos informations._
-
-**[Votre nom complet]**
-*Développeur Full-Stack (.NET / Angular)*
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/votre-compte)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/votre-profil)
